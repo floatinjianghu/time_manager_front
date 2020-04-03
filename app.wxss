@@ -1,0 +1,6 @@
+/**app.wxss**/
+page {
+  height: 100%;
+   font-family: PingFang SC, Helvetica Neue, Arial, sans-serif; 
+  background-size: cover;
+}

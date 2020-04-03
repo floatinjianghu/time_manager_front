@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/today/today",
+    "pages/setting/setting",
+    "pages/components/template/template",
+    "pages/components/music/music",
+    "pages/components/beauty/beauty"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#d4237a",
+    "navigationBarTitleText": "日程",
+    "navigationBarTextStyle":"#fff"
+  },
+    "tabBar": {
+      "list": [
+        {
+          "pagePath": "pages/today/today",
+          "text": "日程",
+          "iconPath": "image/sun.png",
+          "selectedIconPath": "image/sun_hl.png"
+        },
+        {
+          "pagePath": "pages/setting/setting",
+          "text": "设置",
+          "iconPath": "image/setting.png",
+          "selectedIconPath": "image/setting_hl.png"
+        }
+      ],
+      "color": "#9d9d9d",
+      "selectedColor": "#d4237a"
+    }
+}

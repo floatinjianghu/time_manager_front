@@ -1,0 +1,103 @@
+/* pages/components/beauty/beauty.wxss */
+.container {
+  min-height: 100%;
+  /*background: #F9F9FB;*/
+  position: relative;
+}
+.select {
+  background: #db639b;
+  margin: 30rpx;
+  padding: 20rpx 0 20rpx 200rpx;
+  border: 2px solid #db639b;
+  border-radius: 10rpx;
+  position: relative;
+  overflow: hidden;
+}
+.unselect {
+  background: #EFF2F7;
+  margin: 30rpx;
+  padding: 20rpx 0 20rpx 200rpx;
+  border: 2px solid #EFF2F7;
+  border-radius: 10rpx;
+  position: relative;
+  overflow: hidden;
+}
+.beauty-name {
+  vertical-align: top;
+  font-size: 35rpx;
+  width: 300rpx;
+}
+.footer {
+  font-size: 32rpx;
+  color: #9d9d9d;
+  text-align: center;
+  line-height: 32rpx;
+  padding-bottom: 20rpx;
+}
+.home {
+  width: 32rpx;
+  height: 32rpx;
+  margin-right: 10rpx;
+}
+.beauty_logo {
+  width: 60rpx;
+  height: 60rpx;
+  position: absolute;
+  top: 50%;
+  left: 30rpx;
+  margin-top: -30rpx;
+}
+.hide {
+  width: 200rpx;
+  height: 70%;
+  background: transparent;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
+  z-index: 4;
+}
+.inner {
+  background: #EFF2F7;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+.loading {
+  z-index: 10;
+  background: rgba(102, 102, 102, 0.5);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tip {
+  text-align: center;  
+  width: 80%;
+  display: inline-block;
+  background: #fff;
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+.suretip {
+  height: 80rpx;
+  line-height: 80rpx;
+  background: #90CFF0;
+  color: #fff;
+}
+.head {
+  margin: 20rpx;
+  padding-bottom: 20rpx;
+  border-bottom: 1px solid #9d9d9d;
+  color: #9d9d9d;
+}
+.words {
+  margin: 80rpx 0;
+  font-size: 38rpx;
+}
