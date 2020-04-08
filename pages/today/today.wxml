@@ -3,7 +3,7 @@
 <view>
   <view class="title">
   </view>
-  <view wx:for="{{list}}" wx:key="{{index}}">
+  <view wx:for="{{list}}" wx:key="index">
     <template is="record" data="{{item, index, starUrl, starHlUrl}}"></template>
   </view>
   <view class="btnBox">

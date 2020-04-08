@@ -5,7 +5,7 @@
 </view>
 <import src="../../today/today.wxml"/>
 <view class="newTem">
-  <view wx:for="{{list}}" wx:key="{{index}}">
+  <view wx:for="{{list}}" wx:key="index">
     <template is="record" data="{{item, index, starUrl, starHlUrl}}"></template>
   </view>
   <view>

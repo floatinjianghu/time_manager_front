@@ -10,7 +10,7 @@
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#d4237a",
     "navigationBarTitleText": "日程",
-    "navigationBarTextStyle":"#fff"
+    "navigationBarTextStyle":"white"
   },
     "tabBar": {
       "list": [

@@ -1,7 +1,7 @@
 <!--pages/components/beauty/beauty.wxml-->
 
 <view class='container'>
- <view wx:for="{{beautys}}" wx:key="{{inex}}">
+ <view wx:for="{{beautys}}" wx:key="index">
   <view class="{{index==idx?'select':'unselect'}}" bindtap='chooseBeauty' data-index="{{index}}">
   <image class='beauty_logo' src="../../../image/beauty.png"></image>
   <view class="beauty-name" data-index="{{index}}"><text>{{item.name}}</text></view>

@@ -1,7 +1,7 @@
 <!--pages/components/music/music.wxml-->
 
 <view class='container'>
- <view wx:for="{{musics}}" wx:key="{{inex}}">
+ <view wx:for="{{musics}}" wx:key="index">
   <view class="{{index==idx?'select':'unselect'}}" bindtap='chooseMusic' data-index="{{index}}">
   <image class='music_logo' src="../../../image/music.png"></image>
   <view class="music-name" data-index="{{index}}"><text>{{item.name}}</text></view>

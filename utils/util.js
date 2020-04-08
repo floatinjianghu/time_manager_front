@@ -7,7 +7,6 @@ function formatTime(date, count) {
   return [year, month, day].map(formatNumber).join('-') 
 }
 
-
 function dayMoment(date) {
  var hours = date.getHours();
  if (hours < 6) {
@@ -92,7 +91,6 @@ function deltaTime(start, end) {
     return deltaTime
   }
 }
-
 function percentMin (tomorrowMin, todayMin) {
   var percent = todayMin / tomorrowMin;
   var little = percent.toFixed(2)
